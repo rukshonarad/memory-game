@@ -16,5 +16,11 @@ button {
 }
 button:hover {
     background: rgb(218, 18, 245);
-    color: white;
+    color: rgb(79, 16, 16);
+}
+.card-grid {
+    margin-bottom: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
 }
